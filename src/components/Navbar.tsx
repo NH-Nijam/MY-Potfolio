@@ -36,7 +36,7 @@ export default function Navbar() {
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'py-3 bg-[#06040f]/70 backdrop-blur-md  shadow-lg' : 'py-5 bg-transparent'}`}>
       <div className="max-w-[1320px] mx-auto px-6 md:px-8 flex justify-between items-center">
         <a href="#home" className="text-2xl font-extrabold tracking-tight text-white hover:opacity-80 transition-opacity">
-          MD Nijam<span className="text-blue-500 animate-hue-cycle inline-block"> Hossen</span>
+          MD Nijam <span className="text-blue-500 animate-hue-cycle inline-block">  Hossen</span>
         </a>
 
         {/* Desktop Menu */}
