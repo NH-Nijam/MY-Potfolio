@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #06040f;
+  --color-accent: #3b82f6;
+  --font-sans: var(--font-sans);
+
+  --animate-pan-bg: pan-bg 20s linear infinite;
+  --animate-blob: blob 15s infinite;
+  --animate-breathe: breathe 8s ease-in-out infinite;
+  --animate-hue-cycle: hue-cycle 12s linear infinite;
+
+  @keyframes pan-bg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+  }
+  @keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  @keyframes breathe {
+    0%, 100% { transform: scale(1); opacity: 0.4; }
+    50% { transform: scale(1.2); opacity: 0.8; }
+  }
+  @keyframes hue-cycle {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+  }
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    background-color: var(--color-bg-deep);
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: transparent;
+    color: #ededed;
+    overflow-x: hidden;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    body, a, button, input, textarea, select {
+      cursor: none;
+    }
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+  .animate-float-delayed {
+    animation: float 6s ease-in-out infinite;
+    animation-delay: 3s;
+  }
+  
+  .glass-panel {
+    @apply bg-zinc-900/40 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.4) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #3b82f6 !important;
+  transform: scale(0.8);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-weight: 800;
+}
