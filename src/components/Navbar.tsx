@@ -2,7 +2,7 @@
  * @Author: nh-nijam nijamhossen64@gmail.com
  * @Date: 2026-05-23 13:03:07
  * @LastEditors: nh-nijam nijamhossen64@gmail.com
- * @LastEditTime: 2026-05-23 15:53:38
+ * @LastEditTime: 2026-05-23 16:01:24
  * @FilePath: \protfolio\src\components\Navbar.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -36,7 +36,7 @@ export default function Navbar() {
     <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? 'py-3 bg-[#06040f]/70 backdrop-blur-md  shadow-lg' : 'py-5 bg-transparent'}`}>
       <div className="max-w-[1320px] mx-auto px-6 md:px-8 flex justify-between items-center">
         <a href="#home" className="text-2xl font-extrabold tracking-tight text-white hover:opacity-80 transition-opacity">
-          MD Nijam<span className="text-blue-500 animate-hue-cycle inline-block">.dev</span>
+          MD Nijam<span className="text-blue-500 animate-hue-cycle inline-block"> Hossen</span>
         </a>
 
         {/* Desktop Menu */}
