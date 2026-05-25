@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'MD Nijam Hossen | MERN Stack Developer',
     description: 'Professional portfolio of MD Nijam Hossen, a MERN stack developer with 3 years of experience building robust web applications.',
-    url: 'https://yourdomain.com', // TODO: Update with actual domain when deployed
+    url: 'https://nijamhossen.vercel.app',
     siteName: 'MD Nijam Hossen Portfolio',
     images: [
       {
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://yourdomain.com', // TODO: Update with actual domain when deployed
+    canonical: 'https://nijamhossen.vercel.app',
   },
 };
 
