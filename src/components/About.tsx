@@ -32,7 +32,7 @@ export default function About() {
               <div className="absolute -top-1/2 -left-1/2 w-[200%] h-[200%] bg-[conic-gradient(from_0deg_at_50%_50%,transparent_0deg,rgba(6,182,212,0.1)_90deg,transparent_180deg)] animate-[spin_10s_linear_infinite] pointer-events-none" />
               <div className="relative z-10 flex flex-col items-center text-center p-6 md:p-8 bg-neutral-900/60 backdrop-blur-md rounded-2xl border border-white/5 transition-all duration-300 group-hover:border-white/10 group-hover:bg-neutral-900/70">
                 <User size={64} className="text-cyan-400 mb-4 md:mb-6 drop-shadow-[0_0_10px_rgba(6,182,212,0.5)] md:w-20 md:h-20" />
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-1 md:mb-2">MD Nijam Hossen</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-white mb-1 md:mb-2">MD Nijam Hossen <span className="text-base text-cyan-400 font-normal opacity-80">(nijam420)</span></h3>
                 <p className="text-sm md:text-base text-zinc-400 mb-4 md:mb-6">MERN Stack Developer</p>
                 <div className="inline-flex items-center gap-1.5 md:gap-2 px-3 md:px-4 py-1.5 md:py-2 bg-[linear-gradient(135deg,#06b6d4,#10b981)] text-white rounded-full text-xs md:text-sm font-semibold shadow-[0_4px_15px_rgba(6,182,212,0.4)]">
                   <Briefcase size={16} /> 3+ Years Exp.
@@ -50,7 +50,7 @@ export default function About() {
             >
               <h3 className="text-2xl md:text-4xl font-bold text-white mb-3 md:mb-4">Hello there!</h3>
               <p className="text-base md:text-lg text-zinc-400 leading-relaxed mb-3 md:mb-4">
-                I am a passionate and dedicated <strong className="text-cyan-400 font-semibold">MERN Stack Developer</strong> with 3+ years of professional experience working in fast-paced office environments. I specialize in architecting scalable backend solutions and building highly interactive, responsive frontend interfaces.
+                I am MD Nijam Hossen (also known online as <strong className="text-cyan-400 font-semibold">nijam420</strong>), a passionate and dedicated <strong className="text-cyan-400 font-semibold">MERN Stack Developer</strong> with 3+ years of professional experience working in fast-paced office environments. I specialize in architecting scalable backend solutions and building highly interactive, responsive frontend interfaces.
               </p>
               <p className="text-base md:text-lg text-zinc-400 leading-relaxed mb-3 md:mb-4">
                 My focus is always on writing clean, maintainable code and providing seamless user experiences. I love tackling complex problems and transforming them into elegant, modern web applications.

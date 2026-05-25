@@ -8,11 +8,12 @@ import StarBackground from '@/components/StarBackground';
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'MD Nijam Hossen | MERN Stack Developer',
-  description: 'Professional portfolio of MD Nijam Hossen, a MERN stack developer with 3 years of experience building robust web applications.',
+  title: 'MD Nijam Hossen (nijam420) | MERN Stack Developer',
+  description: 'Professional portfolio of MD Nijam Hossen (also known as nijam420), a MERN stack developer with 3 years of experience building robust web applications.',
   keywords: [
     'Nijam', 
     'Hossen', 
+    'nijam420',
     'MD Nijam Hossen', 
     'Nijam Hossen', 
     'MERN Stack Developer', 
