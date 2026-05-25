@@ -64,6 +64,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    google: 'add-your-google-site-verification-code-here', // TODO: Add your Google Search Console verification code
+  },
   alternates: {
     canonical: 'https://nijamhossen.vercel.app',
   },
